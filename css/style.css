@@ -73,11 +73,27 @@ body {
     padding: 30px;
 }
 
-.content-gif {
-    max-width: 100%;
-    max-height: 90vh;
-    border-radius: 15px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+
+.image-container {
+    position: relative; /* Cria um contexto de posicionamento */
+    width: 100%; /* Ajuste conforme necessário */
+    max-width: 650px; /* Exemplo de largura máxima */
+    margin: 30% 30%; /* Centraliza o contêiner */
+}
+
+.content-element {
+    width: 100%; /* Faz a imagem de fundo ocupar todo o contêiner */
+    height: auto; /* Mantém a proporção */
+    display: block; /* Remove espaços indesejados */
+}
+
+.content-gif{
+    position: absolute; /* Posiciona a imagem sobreposta */
+    width: 60%; /* Tamanho da imagem sobreposta */
+    height: auto; /* Mantém a proporção */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Responsividade */
