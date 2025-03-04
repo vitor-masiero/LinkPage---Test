@@ -11,6 +11,13 @@ document.querySelectorAll('.link-btn').forEach(btn => {
     });
 });
 
-document.getElementById('btn-whatsapp').addEventListener('click', function() {
-    window.open('https://www.canva.com/design/DAGgKD57L48/H1TS_94VFcD7-MzJEqaw_w/edit', '_blank');
+document.getElementById('btn-contato').addEventListener('click', function() {
+    window.open('https://w.app/vitormasiero', '_blank');
+})
+
+document.getElementById('btn-github').addEventListener('click', function() {
+    window.open('https://github.com/vitor-masiero', '_blank');
+})
+document.getElementById('btn-linkedin').addEventListener('click', function() {
+    window.open('https://linkedin.com/in/josé-vitor-masiero', '_blank');
 })
